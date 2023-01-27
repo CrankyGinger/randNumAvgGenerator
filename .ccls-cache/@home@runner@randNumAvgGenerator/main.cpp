@@ -9,20 +9,15 @@ int main() {
 
   srand(time(0));
   double randNum1;
-    randNum1 = rand();
-  randNum1 = rand() % 100 + 1;
+    randNum1 = rand () % 100 + 1;
   double randNum2;
-    randNum2 = rand();
-  randNum2 = rand() % 100 + 1;
+    randNum2 = rand () % 100 + 1;
   double randNum3;
-    randNum3 = rand();
-  randNum3 = rand() % 100 + 1;
+    randNum3 = rand () % 100 + 1;
   double randNum4;
-    randNum4 = rand();
-  randNum4 = rand() % 100 + 1;
+    randNum4 = rand () % 100 + 1;
   double randNum5;
-    randNum5 = rand();
-  randNum5 = rand() % 100 + 1;
+    randNum5 = rand () % 100 + 1;
   double average;
     average = (randNum1 + randNum2 + randNum3 + randNum4 + randNum5) / 5;
 
